@@ -54,7 +54,7 @@ application:
     name: Orangeuze
     overlayMap: orangemap2k.jpg
   googleOauth:
-    clientId: '939273020786-ejvmbchn708dcjslg92s65kppm2edrtl.apps.googleusercontent.com' //'1005568560502-6hm16lef8oh46hr2d98vf2ohlnj4nfhq.apps.googleusercontent.com'
+    clientId: '939273020786-ejvmbchn708dcjslg92s65kppm2edrtl.apps.googleusercontent.com'
     authorizedRedirects:
       - { uri: 'https://hidden-savannah-53967.herokuapp.com' }
 challenges:
