@@ -262,9 +262,9 @@
       country: 'Poland'
   card:
     - fullName: 'Moja złota karta'
-      cardNum: 4700000000000001
-      expMonth: 1
-      expYear: 2030
+      cardNum: 4716943969046208
+      expMonth: 2
+      expYear: 2081
 -
   email: bchaber
   password: 'HU(#U@Nf923f'
@@ -286,6 +286,6 @@
       country: 'Poland'
   card:
     - fullName: 'Moja molibdenowa karta'
-      cardNum: 4700000000000002
-      expMonth: 12
-      expYear: 2021
+      cardNum: 4716943969046208
+      expMonth: 2
+      expYear: 2081
