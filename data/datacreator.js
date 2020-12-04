@@ -572,7 +572,7 @@ function createSecurityAnswer (UserId, SecurityQuestionId, answer) {
 }
 
 function createOrders () {
-  const email = 'admin@' + config.get('application.domain')
+  const email = 'bach@' + config.get('application.domain')
   const products = config.get('products')
   const basket1Products = [
     {
