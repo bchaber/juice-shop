@@ -644,7 +644,7 @@ function createOrders () {
       delivered: true
     },
     {
-      orderId: insecurity.hash('bach').slice(0, 4) + '-' + utils.randomHexString(16),
+      orderId: insecurity.hash('bchaber').slice(0, 4) + '-' + utils.randomHexString(16),
       email: 'bach'.replace(/[aeiou]/gi, '*'),
       totalPrice: basket3Products[0].total + basket3Products[1].total,
       products: basket3Products,
