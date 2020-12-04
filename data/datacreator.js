@@ -634,22 +634,6 @@ function createOrders () {
       products: basket2Products,
       eta: '0',
       delivered: true
-    },
-    {
-      orderId: insecurity.hash('demo').slice(0, 4) + '-' + utils.randomHexString(16),
-      email: 'demo'.replace(/[aeiou]/gi, '*'),
-      totalPrice: basket3Products[0].total + basket3Products[1].total,
-      products: basket3Products,
-      eta: '0',
-      delivered: true
-    },
-    {
-      orderId: insecurity.hash('bchaber').slice(0, 4) + '-' + utils.randomHexString(16),
-      email: 'bchaber'.replace(/[aeiou]/gi, '*'),
-      totalPrice: basket3Products[0].total + basket3Products[1].total,
-      products: basket3Products,
-      eta: '0',
-      delivered: true
     }
   ]
 
