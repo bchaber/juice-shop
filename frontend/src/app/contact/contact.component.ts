@@ -30,7 +30,7 @@ export class ContactComponent implements OnInit {
   public rating: number = 0
   public feedback: any = undefined
   public captcha: any
-  public captchaId: any
+  public captchaAnswer: any
   public confirmation: any
   public error: any
 
@@ -56,12 +56,12 @@ export class ContactComponent implements OnInit {
   getNewCaptcha () {
     this.captchaService.getCaptcha().subscribe((data: any) => {
       this.captcha = data.captcha
-      this.captchaId = data.captchaId
+      this.captchaAnswer = data.answer
     }, (err) => err)
   }
 
   save () {
-    this.feedback.captchaId = this.captchaId
+    this.feedback.captchaAnswer = this.captchaAnswer
     this.feedback.captcha = this.captchaControl.value
     // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
     this.feedback.comment = `${this.feedbackControl.value} (${this.authorControl.value})`
